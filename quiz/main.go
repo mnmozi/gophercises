@@ -65,7 +65,7 @@ func main() {
 	quizDone := startQuiz(questions)
 
 	// wait for timer or quiz ends.
-	quizTimer := time.Tick(*flagTimer)
+	quizTimer := time.NewTimer(*flagTimer).C
 
 	select {
 	case <-quizDone:
