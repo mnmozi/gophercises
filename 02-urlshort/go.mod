@@ -1,4 +1,4 @@
-module github.com/mnmozi/gophercises/urlshort
+module github.com/mnmozi/gophercises
 
 go 1.15
 

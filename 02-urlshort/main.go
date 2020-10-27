@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/mnmozi/gophercises/urlshort/urlshort"
+	"github.com/mnmozi/gophercises/urlshort"
 )
 
 func main() {
